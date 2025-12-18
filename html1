@@ -8,6 +8,21 @@
 </head>
 
 <body>
+
+<div class='container start'>
+    <div class='start-btn'>Тисни щоб почати!!</div>
+</div>
+<script
+src='https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js' ></script>
+</body>
+</html>
+
+<div class="float-bg">
+  <img src="https://png.pngtree.com/png-vector/20231223/ourmid/pngtree-dumpling-with-broth-in-the-bowl-pelmeny-png-image_10910773.png" class="pelmeny" alt="jack" />
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/054/579/210/small/ukrainian-red-borscht-png.png" class="borsh" alt="jack2" />
+</div>
+
+
 <div class="container">
     <div id="quiz">
         <h1 id="question"></h1>
