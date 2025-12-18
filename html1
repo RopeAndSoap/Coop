@@ -25,6 +25,179 @@
     </div>
 </div>
 
+margin: 0;
+            min-height: 100vh;
+
+            /* КОНТРАСТНЫЙ ФОН БЕЗ ЗЕЛЁНОГО */
+            background: linear-gradient(
+                135deg,
+                #0a2a66 0%,
+                #1e4fd8 45%,
+                #f2b705 75%,
+                #ffd43b 100%
+            );
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .result-container {
+            width: 90%;
+            max-width: 900px;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 30px 30px 20px;
+            box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+            text-align: center;
+        }
+
+        .food-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .food-row img {
+            width: 120px;
+        }
+
+        .percent {
+            font-size: 96px;
+            font-weight: 700;
+            background: linear-gradient(180deg, #ffb50a, #2c5be0);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 10px 0;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            letter-spacing: 1px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: linear-gradient(
+                180deg,
+                #5b84f1 0%,
+                #f2b705 100%
+            );
+            border-radius: 22px;
+            padding: 40px 20px;
+            color: #fff;
+        }
+
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        .card p {
+            margin: 0 0 25px;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        .retry-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 28px;
+            border-radius: 30px;
+            border: none;
+            background: #ffffff;
+            color: #333;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .retry-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 9px 22px rgba(0,0,0,0.35);
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .footer span {
+            color: #0a3fa8;
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            .percent {
+                font-size: 72px;
+            }
+
+            .food-row img {
+                width: 90px;
+            }
+        }
+    </style>
+</head>
+
+<div class="background-particles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+  <!-- Снежинки на фоне -->
+  <canvas id="snow-canvas"></canvas>
+
+  <div class="result-container">
+    <div class="percent">100%</div>
+    <div class="subtitle">Рівень української потужності</div>
+
+    <div class="card">
+      <h2>«Наш живчик!»</h2>
+      <p>ДЛЯ СПРАВЖНІХ ПАТРІОТІВ.</p>
+      <button class="retry-btn" onclick="location.reload()">⟳ Пройти ще раз</button>
+    </div>
+
+    <div class="footer">
+      Поділись результатом з друзями та перевір їхню
+      <span>українську потужність</span> 🇺🇦
+    </div>
+  </div>
+
+
 <script src="script.js"></script>
 </body>
 </html>
